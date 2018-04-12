@@ -1,0 +1,38 @@
+
+  
+  Classe Principale : .Login  -> fenêtre d'authentification 
+  ***************Login utilise la class LoginPane qui est son interface
+  
+  La classe de l'interface principale : VoteStat -> fenêtre de l'application
+  interfaces principale et la plus pertinante dans le code : VotePane
+  
+  Bibliothèques spéciales utilisé dans le code : 
+        -> JFreeChart , pour la création des graphes 
+        -> JFileChooser , pour la sauvegarde des fichiers sous un certain repertoire
+        -> itext , pour la sauvegarde sous le format pdf 
+        -> mysqli , pour la connexion avec la base de donnée 
+ 
+ L'animation des composant et des transitions est complètement codé intuitivement sans l'aide de bibliothèques d'animation ( la partie la plus difficile du code) 
+ J'ai crée les algorithmes de manière à ce qu'ils soient clairement compris et efficaces en même temps 
+ 
+ J'ai diviser les package d'une manière à faciliter la compréhension de la dispostion et de l'architecture du logiciel 
+ ------
+ repertoir principal ----- classes des traitement globeaux et des fenêtre
+                     ----- intrefaces --------------- classes des interfaces (JPanel et autres ) et les traitement liées à ceux ci
+                     ----- sql_connection ----------- classes pour la gestion des connection à la base de donnée
+                                          ----------- com ( repertoire des classes mysqli ) 
+                     ----- org ( contient des classes des bibliothèques citées ci dessus )
+                     ----- com ( contient des classes des bibliothèques citées ci dessus )
+                     
+   ******************************************************************************************************
+   J'ai essayer de traiter au maximum les codes pour que ça soit plus lisible et compréhensible , hélas leur longueure fut un handicap 
+   
+   par BOUHADOUF Nassim 
+   
+   pour toute incompréhension n'hésitez pas de me contacter : nassim.bouhadouf@gmail.com  
+   
+   ******************************************************************************************************
+               projet de tp IHM            2017/2018     application : VoteStat    version : 1.0.1   build : 12.17
+   
+   
+   
